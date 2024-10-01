@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Outfit;
+}
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    padding-left: 135px; /* Default padding for larger screens */
+    padding-right: 135px;
+  }
+  
+  /* Media query for small screens (e.g., tablets and below) */
+  @media (max-width: 768px) {
+    body {
+      padding-left: 50px; /* Adjust padding for smaller screens */
+      padding-right: 50px;
+  }
+}
+  
+  /* Media query for extra-small screens (e.g., mobile devices) */
+  @media (max-width: 480px) {
+    body {
+      padding-left: 20px; /* Further reduce padding for mobile devices */
+      padding-right: 20px;
+    }
+  }
+  
